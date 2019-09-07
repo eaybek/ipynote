@@ -53,5 +53,10 @@ if __name__ == "__main__":
     import subprocess
 
     subprocess.call(
-        ["ipython3", "-i", "-c", "from notes import Note"]
+        [
+            "ipython3",
+            "-i",
+            "-c",
+            "from ipynote.notes import Note",
+        ]
     )
